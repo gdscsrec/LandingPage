@@ -15,6 +15,7 @@ function About() {
       <center>
         <h3 className="head1" >Our Domains</h3>
       </center>
+<center>
           {Domain.map((DomainName, index) => {
             return (
               <div id="container">
@@ -23,8 +24,13 @@ function About() {
               </div>
             );
           })}
+        </center>
           
-          <center>
+        </div>
+      </center>
+      <center>
+      <div className="box1">
+      <center>
             <h3 className="head2">Meet Our Team</h3>
           </center>
           {Profile.map((ProfileName, index) => {
@@ -39,6 +45,9 @@ function About() {
               
             );
           })}
+
+          
+          
         </div>
       </center>
       <Footer />

@@ -24,7 +24,7 @@
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
  
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 3px 3px 7px black;
 }
 
 .imgload {
@@ -37,10 +37,28 @@
   width: 50%;
 }
 #p1 {
-  font-size: 18px;
+  font-size: 20px;
   margin: 15px 0 0 0;
   font-family: sans-serif;
 }
+#headline{
+  font-size: 50px;
+}
+  /* .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 30px;
+    font-weight: bolder;
+  } */
 
 /*button:disabled {
   border: none;
@@ -56,41 +74,41 @@
   cursor: pointer;
 }*/
 .btn_achieve{
-  width:170px;
+  width:150px;
   height:50px;
- border:none;
- color:black;
- border-radius:4px;
- transition:ease-out 0.3s;
- font-size:1.5rem;
- margin-left: 670px;
- font-weight: bolder;
- outline: none;
- border:3px solid #4285f4;
- position:relative;
- z-index:1;
+  margin-bottom: 40px;
+  color:black;
+  border-radius: 5px;
+  transition:ease-out 0.3s;
+  font-size:1rem;
+  margin-left: 670px;
+  font-weight: bold;
+  outline: none;
+  border:3px solid #4285F4;
+  position:relative;
+  z-index:1;
 }
 .btn_achieve:hover{
-  color:black;
-  cursor:pointer;
+  color:rgb(255, 255, 255);
+   cursor:pointer;
 }
 .btn_achieve:before{
   transition: 0.5s all ease;
-  position: absolute;
-  top:0;
-  left:50%;
-  right:50%;
-  bottom:0;
-  opacity:0;
-  content:"";
-  background-color: #4285f4;
+   position: absolute;
+   top:0;
+   left:50%;
+   right:50%;
+   bottom:0;
+   opacity:0;
+   content:"";
+   background-color:#4285F4;
 }
 .btn_achieve:hover:before{
   transition: 0.5s all ease;
-  left:0;
-  right:0;
-  opacity:1;
-  z-index:-1;
+    left:0;
+    right:0;
+    opacity:1;
+    z-index:-1;
 }
 .video-responsive {
   overflow: hidden;
@@ -133,7 +151,7 @@
     padding: 0px;
   }
   .achieve {
-    margin-left: 1px;
+    
     max-height: 750px;
     box-shadow: 5px 5px 5px rgb(88, 88, 88);
     padding: 0px;
@@ -147,12 +165,10 @@
   }
   #p1{
     
-      font-size: 18px;
-     
+      font-size: 15px;
+      word-break: break-all;
       font-family: sans-serif;
-      text-align: justify;
-     word-spacing: -2px;
-    
+      text-align: left; 
   }
    /* .card_achieve {
     max-width: 35px;
@@ -227,7 +243,7 @@
     bottom:0;
     opacity:0;
     content:"";
-    background-color: #4285f4;}
+    background-color: #4285F4;}
   .btn_achieve:hover:before{
     transition: 0.5s all ease;
     left:0;

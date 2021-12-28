@@ -19,6 +19,10 @@
   width: 90%;
   margin: 20px 30px;
 }
+.box1{
+  width: 90%;
+  margin: 20px 30px;
+}
 .domainname {
   margin-top: 1cm;
   line-height: auto;
@@ -27,6 +31,7 @@
   padding-bottom: 30px;
 }
 .domainimg {
+  
   display: flex;
   margin: 20px 55px;
   width: 3cm;
@@ -66,6 +71,14 @@
   
 }
 @media only screen and (max-width: 900px) {
+  .box {
+    width: 100%;
+    margin: 10px 10px;
+  }
+  .box1{
+    width: 100%;
+    margin: 10px 10px;
+  }
   .head1 {
     padding-top: 100px;
     color: #000;
