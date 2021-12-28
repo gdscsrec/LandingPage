@@ -136,8 +136,23 @@
     margin-left: 1px;
     max-height: 750px;
     box-shadow: 5px 5px 5px rgb(88, 88, 88);
-    padding: 0cm;
+    padding: 0px;
     margin: 0.5cm 0.5cm 0.5cm 0.5cm;
+  }
+  .imgload{
+    object-fit: contain;
+    align-items: center;
+    padding-left: 60px;
+    max-height: 750px;
+  }
+  #p1{
+    
+      font-size: 18px;
+     
+      font-family: sans-serif;
+      text-align: justify;
+     word-spacing: -2px;
+    
   }
    /* .card_achieve {
     max-width: 35px;

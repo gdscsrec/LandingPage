@@ -8,23 +8,24 @@ function MobileAchievementItem(props) {
 
     return (<div onClick={() => setShow(!show)} className="achievement">
     <div className="achieve">
-      <div className="imgload" background-color="white">
+    <div className="imgload" background-color="white">
         <img
           src={item.img}
           className="img_achieve"
           alt="BigCo Inc. logo"
           padding="50px"
         />
-      </div>
-      <div className="card_achieve">
-        <center>
+        
+        <div className="card_achieve"></div>
+        
+        <center>  
         {show &&  <b>{item.headline}</b>}
         </center>
         <center>
        {show &&  <p id="p1">{item.description}</p>}
        </center>
       </div>
-    </div>
+    </div>  
   </div>)
 }
 
