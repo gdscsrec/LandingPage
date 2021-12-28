@@ -1,0 +1,83 @@
+[{
+    "id":"1",
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "30 DAYS OF GOOGLE CLOUD",
+    "desc": "We were proud that Sri Ramakrishna Engineering college was selected to host 30 days of Google cloud one among few institutions.As the name suggests there will be 30 days of Google maniac .It introduces one to today's developing technologies like computer applications , ML and etc; The event started from October 1."
+}, {
+    "id":"2",
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "EMBEDDED SYSTEMS ",
+    "desc": "The event “Embedded Systems-INFOBER” was organized by our DSC SREC team to make undergraduates get more knowledge about processors and process control blocks (PCB) to understand the operations of operating systems. This occasion was scheduled on October 29 at 6.00 p.m. in head of Nivesh A., DSC SREC Technical Lead."
+    }, {
+        "id":"3",
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "OPEN-SOURCE GIT AND GITHUB",
+    "desc": "The event “Open-Source-INFOBER with DSC SREC” was directed to learn more about open source, Linux, Git and GitHub and get to know how to collaborate with the entire software world to get a code solved. The event held on October 31,2020 at 6 p.m.  – 7:30 p.m. The participants got an opportunity to interact with the experts Mr. Simuchand B., DSC SREC Lead, Git and GitHub and Mr. Srinivas P., DSC SREC Executive Lead, Linux OS."
+
+    }, {
+        "id":"4",
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "ANDROID STUDY JAMS",
+
+    "desc": "The motive of the event “Android Study Jams” was to educate the partakers about the android software development and to know how the program works and the event made eligible for all beginners, intermediate and expert level. This sequence of events was presented by DSC SREC team on December 1, 2020 at 6 p.m."
+    }, {
+        "id":"5",
+            "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+        "title": "ANDROID STUDY JAMS #1",
+        "desc": "The event “Android Study Jams #1” was organized by the team of DSC SREC. The agenda of the event was to educate about the basics of Kotlin in Android development. This event was planned on December 5, 2020 at 6 p.m. "
+        
+    }, {
+        "id":"6",
+
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title":  "ANDROID STUDY JAMS#2",
+
+    "desc":"The event “Android Study Jams #2” was organized by DSC SREC team. The agenda of the event was to educate about the basics of user interaction and get to know about the recycler view. This event was planned on December 6, 2020 at 6 p.m."
+    
+}, {
+    "id":"7",
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+"title": "90 SECONDS OF LEARNING",
+
+"desc": "  The main moto of this series of events was to stream a short video of 90 seconds and to give an informative stuff about Artificial Intelligence, Machine Learning, Android Development, Augmented Reality and much domains."
+
+}, {
+    "id":"8",
+
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+"title": "90 SECONDS OF LEARNING – CYBER SECURITY",
+
+"desc": "The event “90 Seconds of Learning-Cyber Security” was conducted by DSC SREC team and have streamed an informative video of 90 seconds in you tube about email spoofing in the domain of Cyber Security."
+
+}, {
+    "id":"9",
+
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+"title": "90 SECONDS OF LEARNING – CLOUD COMPUTING",
+
+"desc": "The event “90 Seconds of Learning-Cloud Computing” was organized by the team of DSC SREC and have broadcasted an informative video of 90 seconds in you tube about AI Cloud Computing in the domain of Cloud Computing."
+}, {
+    "id":"10",
+
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+"title": "90 SECONDS OF LEARNING – AR - VR",
+
+"desc":"The event “90 Seconds of Learning-AR - VR” was directed by DSC SREC team and have streamed an informative video of 90 seconds in you tube about Augmented Reality in the domain of Augmented Reality and Virtual Reality."
+
+}, {
+    "id":"11",
+
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+"title": "90 SECONDS OF LEARNING – APP DEVELOPMENT",
+
+"desc": "The event “90 Seconds of Learning-AR - VR” was executed by DSC SREC team and have streamed a short informative video of 90 seconds in you tube about XML Syntax in the domain of App Development."
+
+}, {
+    "id":"12",
+
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+"title": "SOLUTION CHALLENGE",
+
+"desc": "The partakers in the event “The Google Developer Student Clubs 2021 Solution Challenge” was supposed to build good solutions for the real time problems and this was the theme for the info session. The occasion was scheduled on February 15,2021 at 6:30 p.m.The series of mentoring sessions on various domains for “The Google Developer Student Clubs 2021 Solution Challenge” event was planned to enrich the participants on the industry standards of approaching a problem. The event held on February 21, 2021 at 11 p.m. and the participants get interacted with the expert Mr. Manoj R., user Experience Consultant Ajira Tech."
+
+}]

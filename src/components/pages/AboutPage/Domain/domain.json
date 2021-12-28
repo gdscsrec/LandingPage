@@ -1,0 +1,35 @@
+[
+    {
+        "img":"https://bsmedia.business-standard.com/_media/bs/img/about-page/thumb/464_464/1614133961.jpg",
+        "domain":"Artificial intelligence"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSljztRYvAmKwM77N2srAZMeUTaaRnhJim83gtTbsjiERAI4o3BEeutaO1FHakEpCBVolQ&usqp=CAU",
+        "domain":"Web Development"
+    },
+    {
+        "img":"https://thumbs.dreamstime.com/z/white-cloud-computing-simple-icon-logo-dark-background-133071567.jpg",
+        "domain":"Cloud Development"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRRMjgJ7uGstRH2k1NT6TgKFlXARFWi6jXFQ&usqp=CAU",
+        "domain":"Open Source"
+    },
+    {
+        "img":"https://th.bing.com/th/id/OIP.rTIbcYdKGRPe_XDkRkZbCgHaEo?pid=ImgDet&rs=1",
+        "domain":"Android Development"    
+    },
+    {
+        "img":"https://blogs.windriver.com/content/images/size/w2000/2019/09/helix-ebook-image-1.jpg",
+        "domain":"Embedded Systems"
+    },
+    {
+        "img":"https://static.vecteezy.com/system/resources/previews/000/607/278/original/vector-technology-cyber-security.jpg",
+        "domain":"Cyber Security"
+    },
+    {
+        "img":"https://pbs.twimg.com/profile_images/1375177275528769539/6jGao2yV_400x400.jpg",
+        "domain":"Flutter Development"
+    }
+
+    ]

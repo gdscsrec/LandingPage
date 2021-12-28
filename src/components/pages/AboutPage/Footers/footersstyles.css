@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+.whol{
+  background-color: white;
+}
+.footmain {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer1 {
+  background-color: black;
+  padding: 0px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 350px;
+}
+.lefa {
+  float: right;
+}
+.sociallinks {
+  display: inline-flex;
+  margin-top: 10px;
+}
+.sociallinks a {
+  padding: 9px 20px 5px 20px;
+}
+.dw-heart {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding-bottom: 10px;
+  color: white;
+}
+.quicklinks {
+  color: black;
+  display: block;
+
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 6px;
+}
+.quicklinks a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  padding: 0px 1%;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 0 0 calc(20% - 50px);
+}
+.GDSC {
+  background-color: white;
+  font-size: 12px;
+}
+@media (max-width: 900px) {
+  .quicklinks {
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 1px;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 0px;
+  }
+}

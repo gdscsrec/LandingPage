@@ -1,0 +1,141 @@
+.head1 {
+  align-items: center;
+  font-size: calc(1.325rem + 0.9vw);
+  width: auto;
+  margin: 20px;
+  padding: 10px;
+  font-weight: bolder;
+}
+.head2 {
+
+    align-items: center;
+    font-size: calc(1.325rem + 0.9vw);
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.box {
+  width: 90%;
+  margin: 20px 30px;
+}
+.domainname {
+  margin-top: 1cm;
+  line-height: auto;
+  font-size: 13px;
+  margin: 20px 40px;
+  padding-bottom: 30px;
+}
+.domainimg {
+  display: flex;
+  margin: 20px 55px;
+  width: 3cm;
+  height: 3cm;
+  border-radius: 100%;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 20px 26px;
+}
+#container2 {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 20px 40px;
+}
+.profileimg {
+  display: flex;
+  margin: 20px 90px;
+  width: 3cm;
+  height: 3cm;
+  border-radius: 100%;
+}
+.profilename {
+  margin-top: 1cm;
+  line-height: auto;
+  font-size: 13px;
+  margin: 20px 40px;
+  
+}
+.profiledesc {
+  font-size: 13px;
+  margin-top: 10px;
+  padding-bottom: 30px;
+  
+}
+@media only screen and (max-width: 900px) {
+  .head1 {
+    padding-top: 100px;
+    color: #000;
+    font-weight: bolder;
+  }
+
+  .domainname {
+    display:flex;
+    padding: 14px 0px 10px;
+    font-size: 10px;
+    color: #000;
+    margin: 15px;
+    font-weight: normal;
+    
+  }
+  .domainimg {
+    display: flex;
+    margin: auto;
+    width: 2.2cm;
+    height: 2.2cm;
+    border-radius: 100%;
+    float: left;
+  }
+  #container {
+    
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 90px;
+    align-content: center;
+    margin: 20px 40px;
+  }
+  #container2 {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 90px;
+    align-content: center;
+    margin-left: 5px 5px;
+  }
+  .profileimg {
+    margin: auto;
+    width: 2.2cm;
+    height: 2.2cm;
+    border-radius: 100%;
+    float: left;
+    margin-left: 0px;
+  }
+  .profilename {
+    padding-top: 14px;
+    font-size: 8px;
+    color: #000;
+    margin: auto;
+    font-weight: bold;
+  }
+  .head2 {
+   
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .profiledesc {
+    font-size: 8px;
+    color: #000;
+    font-weight: normal;
+  }
+  h3 {
+    
+    font-size: 25px;
+    font-weight: bolder;
+  }
+}

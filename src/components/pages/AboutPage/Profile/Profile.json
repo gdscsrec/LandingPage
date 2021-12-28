@@ -1,0 +1,39 @@
+[
+    {
+        "img":"https://i.ibb.co/0CtBPfL/test.jpg",
+        "name":"SANJAY",
+        "desc":"GDSC Lead",
+        "link":"https://www.linkedin.com/in/sanjaydevtech"
+     
+    },
+    {
+        "img":"https://i.ibb.co/nPCW3Nn/test.jpg",
+        "name":"JAYASAKTHI BALAJI",
+        "desc":"Technical Team Lead",
+        "link":" https://www.linkedin.com/in/jayasakthi-balaji-g-337128204"
+    },
+    {
+        "img":"https://i.ibb.co/27WNkvB/test.jpg",
+        "name":"HARSSHANTH",
+        "desc":"Project Management Team Lead",
+        "link":"https://www.linkedin.com/in/harsshanth"    
+    },
+    {
+        "img":"https://i.ibb.co/sgCZBNY/test.jpg",
+        "name":"RANJANI",
+        "desc":"Public Relations Team Lead",
+        "link":"https://www.linkedin.com/in/ranjani-d-k-r-a84016220"      
+    },
+    {
+        "img":"https://i.ibb.co/wKBQsSz/test.jpg",
+        "name":"BHUVERDHENA",
+        "desc":"Designing Team Lead",
+        "link":" https://www.linkedin.com/in/jayasakthi-balaji-g-337128204"
+    },
+    {
+        "img":"https://i.ibb.co/1shbxfM/test.jpg",
+        "name":"SHIVANI",
+        "desc":"Event Management Team Lead",
+        "link":"https://www.linkedin.com/in/shivani-ravikumar"      
+    }
+]
