@@ -12,24 +12,23 @@
         "domain":"Cloud Development"
     },
     {
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRRMjgJ7uGstRH2k1NT6TgKFlXARFWi6jXFQ&usqp=CAU",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8mTmNh6BYW2eyBr4Eh1gf-diYtIbcVFUWWHk2dtqKeqBcr9rXgQLE-I7P3Iap-AkSuUo&usqp=CAU",
         "domain":"Open Source"
     },
     {
-        "img":"https://th.bing.com/th/id/OIP.rTIbcYdKGRPe_XDkRkZbCgHaEo?pid=ImgDet&rs=1",
+        "img":"https://icons-for-free.com/iconfiles/png/512/android+logo+mobile+mobile+phone+icon-1320196075444927847.png",
         "domain":"Android Development"    
     },
     {
-        "img":"https://blogs.windriver.com/content/images/size/w2000/2019/09/helix-ebook-image-1.jpg",
+        "img":"https://www.doulos.com/media/1824/background-light-greyembsys.jpg?center=0.40825688073394495,0.49740932642487046&mode=crop&width=410&height=230&rnd=132664150540000000",
         "domain":"Embedded Systems"
     },
     {
-        "img":"https://static.vecteezy.com/system/resources/previews/000/607/278/original/vector-technology-cyber-security.jpg",
+        "img":"https://m.economictimes.com/thumb/msid-81649638,width-1200,height-900,resizemode-4,imgsize-181486/cyber-security.jpg",
         "domain":"Cyber Security"
     },
     {
         "img":"https://pbs.twimg.com/profile_images/1375177275528769539/6jGao2yV_400x400.jpg",
         "domain":"Flutter Development"
     }
-
-    ]
+]

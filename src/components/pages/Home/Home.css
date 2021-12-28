@@ -2,8 +2,16 @@
   width: 100%;
 }
 .Container3 {
-  padding: 280px;
+  padding: 200px;
   height: 90vh;
+}
+
+.Dis {
+  font-size: 40px;
+  text-align: center;
+}
+.clg {
+  font-size: 20px;
 }
 .anim1 {
   width: 12%;
@@ -15,19 +23,20 @@
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15em;
-  font-size: 20px;
+  font-size: 15px;
+  margin-left: 15vw;
+  margin-top: 20vh;
   animation: typing 5s steps(40, end) infinite;
 }
 .anim2 {
   width: 15%;
-
+  margin-left: 70vw;
+  margin-top: -40vh;
   overflow: hidden;
   border-right: 0.15em solid orange;
   white-space: nowrap;
-  margin-left: 80vw;
-  margin-top: -10vh;
   letter-spacing: 0.15em;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bolder;
   animation: typing2 5s steps(40, end) infinite;
 }
@@ -36,21 +45,21 @@
   transition: 0.7s;
 }
 .logo-anime-connect:hover {
-  color: red;
+  color: #4285f4;
 }
 .logo-anime-learn {
   color: #8a8e97;
   transition: 0.7s;
 }
 .logo-anime-learn:hover {
-  color: rgb(229, 233, 13);
+  color: #fbbc04;
 }
 .logo-anime-grow {
   color: #8a8e97;
   transition: 0.7s;
 }
 .logo-anime-grow:hover {
-  color: rgb(7, 175, 77);
+  color: #34a853;
 }
 
 @keyframes typing {
@@ -78,14 +87,6 @@
     border-color: orange;
   }
 }
-.Dis {
-  font-size: 40px;
-  text-align: center;
-  margin-top: 5vh;
-}
-.clg {
-  font-size: 20px;
-}
 .desc1 {
   float: left;
 }
@@ -93,6 +94,7 @@
   float: right;
 }
 .slidebody {
+  margin-top: 20vh;
   width: 80%;
   height: 100%;
 }
@@ -150,13 +152,12 @@
   }
   .anim1 {
     width: 30%;
-    margin-left: -20vw;
+    margin-left: 10vw;
     font-size: 10px;
     overflow: hidden;
-    border-right: 0.15em solid orange;
+    border-right: 0.1em solid orange;
     white-space: nowrap;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 15vh;
     letter-spacing: 0.15em;
     animation: typing 5s steps(40, end) infinite;
   }
@@ -165,7 +166,7 @@
     transition: 0.7s;
   }
   .logo-anime-connect:hover {
-    color: red;
+    color: #4285f4;
   }
   .logo-anime-learn {
     color: #8a8e97;
@@ -185,10 +186,10 @@
     width: 52%;
     font-size: 10px;
     overflow: hidden;
-    border-right: 0.15em solid orange;
+    border-right: 0.1em solid orange;
     white-space: nowrap;
-    margin-left: 50vw;
-    margin-top: -10vh;
+    margin-left: 60vw;
+    margin-top: -40vh;
     letter-spacing: 0.15em;
     animation: typing2 5s steps(40, end) infinite;
   }
@@ -223,7 +224,7 @@
     width: 50vw;
     align-items: center;
     margin-left: -2vw;
-    margin-top: 30vh;
+    margin-top: 20vh;
   }
   .clg {
     font-size: 20px;
@@ -231,6 +232,7 @@
   .slidebody {
     width: 100%;
     height: auto;
+    margin-top: 10vh;
   }
   .ics {
     width: 100vw;
@@ -238,6 +240,7 @@
   .Icon1 {
     width: 100%;
     font-size: 15px;
+    margin-top: 10vh;
     /* align-items: center; */
 
     /* 
@@ -278,8 +281,9 @@
     /* margin-left: 1px; */
   }
   .Icon1:hover .logo-anime-connect {
-    color: red;
+    color:  #4285f4;
   }
+
   .Icon2:hover .label2 {
     display: block;
     font-size: 15px;
@@ -298,5 +302,14 @@
   }
   .Icon3:hover .logo-anime-grow {
     color: rgb(7, 175, 77);
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Dis {
+    margin-top: 20vh;
+  }
+  .slidebody {
+    width: 100%;
+    height: 10vh;
   }
 }

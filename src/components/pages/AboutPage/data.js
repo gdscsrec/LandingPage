@@ -9,7 +9,7 @@ export const ObjOne = {
   headline: "About Us",
   lightText: true,
   topLine: "GDSC SREC",
-  img: require("../../images/logogdsc.png").default,
+  img: require("../../images/logoimage.png").default,
   alt: "Image",
   start: "start",
 };

@@ -24,12 +24,9 @@ function About() {
               </div>
             );
           })}
-        </center>
-          
-        </div>
+        
       </center>
-      <center>
-      <div className="box1">
+     
       <center>
             <h3 className="head2">Meet Our Team</h3>
           </center>

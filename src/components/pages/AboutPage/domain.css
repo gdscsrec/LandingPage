@@ -19,10 +19,6 @@
   width: 90%;
   margin: 20px 30px;
 }
-.box1{
-  width: 90%;
-  margin: 20px 30px;
-}
 .domainname {
   margin-top: 1cm;
   line-height: auto;
@@ -42,13 +38,13 @@
   display: flex;
   flex-direction: column;
   float: left;
-  margin: 20px 26px;
+  margin: 20px 58px;
 }
 #container2 {
   display: flex;
   flex-direction: column;
   float: left;
-  margin: 20px 40px;
+  margin: 20px 70px;
 }
 .profileimg {
   display: flex;
@@ -69,6 +65,80 @@
   margin-top: 10px;
   padding-bottom: 30px;
   
+}
+@media only screen and (max-width: 900px) {
+  .head1 {
+    padding-top: 100px;
+    color: #000;
+    font-weight: bolder;
+  }
+
+  .domainname {
+    display:flex;
+    padding: 14px 0px 10px;
+    font-size: 10px;
+    color: #000;
+    margin: 15px;
+    font-weight: normal;
+    
+  }
+  .domainimg {
+    display: flex;
+    margin: auto;
+    width: 2.2cm;
+    height: 2.2cm;
+    border-radius: 100%;
+    float: left;
+  }
+  #container {
+    
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 90px;
+    align-content: center;
+    margin: 20px 35px;
+  }
+  #container2 {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 90px;
+    align-content: center;
+    margin: 20px 35px;
+  }
+  .profileimg {
+    margin: auto;
+    width: 2.2cm;
+    height: 2.2cm;
+    border-radius: 100%;
+    float: left;
+    margin-left: 0px;
+  }
+  .profilename {
+    padding-top: 14px;
+    font-size: 8px;
+    color: #000;
+    margin: auto;
+    font-weight: bold;
+  }
+  .head2 {
+   
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .profiledesc {
+    font-size: 8px;
+    color: #000;
+    font-weight: normal;
+  }
+  h3 {
+    
+    font-size: 25px;
+    font-weight: bolder;
+  }
 }
 @media only screen and (max-width: 900px) {
   .box {
@@ -135,7 +205,7 @@
     font-weight: bold;
   }
   .head2 {
-   
+    
     display: inline-block;
     white-space: nowrap;
     font-size: 20px;

@@ -5,13 +5,14 @@ import "pure-react-carousel/dist/react-carousel.es.css";
 import useWindowSize from "./useWindowSize";
 import { Icon } from "@iconify/react";
 import SliderImages from "./SliderImages.json";
-import Footers from "../../Footer/Footer"
+import Footers from "../../Footer/Footer";
 function App() {
   const { width } = useWindowSize();
   console.log({ width });
   return (
     <div>
       <div className="whole">
+        <div className="anim1">Welcome To</div>
         <center>
           <div className="Container3">
             <center>
@@ -33,17 +34,18 @@ function App() {
             </center>
           </div>
         </center>
+        <div className="anim2">Lets Learn Together</div>
         <br />
         <br />
         <div className="Start">
           <div className="slider">
-            {width > 900 ? (
+            {width > 1100 ? (
               <CarouselProvider
                 naturalSlideWidth={100}
                 naturalSlideHeight={40}
                 totalSlides={3}
                 isPlaying={true}
-                interval={2000}
+                interval={8000}
                 infinite={true}
                 className="carousel"
               >
@@ -70,7 +72,7 @@ function App() {
                 naturalSlideHeight={75}
                 totalSlides={3}
                 isPlaying={true}
-                interval={2000}
+                interval={8000}
                 infinite={true}
                 className="carousel"
               >
@@ -108,12 +110,7 @@ function App() {
               <div style={{ display: "table-cell" }} className="Icon1">
                 <div className=" logo-anime-connect">
                   <center>
-                    <Icon
-                      icon="el:group"
-                  
-                      width="100"
-                      height="100"
-                    />
+                    <Icon icon="el:group" width="100" height="100" />
                   </center>
                 </div>
                 <center className="connect">
@@ -132,15 +129,13 @@ function App() {
               ></div>
               <div style={{ display: "table-cell" }} className="Icon2">
                 <div className="logo-anime-learn">
-                <center>
-                 
-                  <Icon
-                    icon="dashicons:welcome-learn-more"
-                  
-                    width="100"
-                    height="100"
-                  />
-                </center>
+                  <center>
+                    <Icon
+                      icon="dashicons:welcome-learn-more"
+                      width="100"
+                      height="100"
+                    />
+                  </center>
                 </div>
                 <center>
                   <b>Learn</b>
@@ -158,14 +153,9 @@ function App() {
               ></div>
               <div style={{ display: "table-cell" }} className="Icon3">
                 <div className="logo-anime-grow">
-                <center>
-                  <Icon
-                    icon="uil:arrow-growth"
-                
-                    width="100"
-                    height="100"
-                  />
-                </center>
+                  <center>
+                    <Icon icon="uil:arrow-growth" width="100" height="100" />
+                  </center>
                 </div>
                 <center>
                   <b>Grow</b>
@@ -183,84 +173,70 @@ function App() {
               ></div>
             </div>
           ) : (
-            < div>
-              <div></div>
+            <div className="ics">
+              <center>
+                <div></div>
 
-              <div className="Icon1" >
-                <div className="logo-anime-connect">
-                
-                  <Icon
-                    icon="el:group"
-                   
-                    width="70"
-                    height="70"
-                  />
-                </div>
-               
+                <div className="Icon1">
+                  <div className="logo-anime-connect">
+                    <Icon icon="el:group" width="70" height="70" />
+                  </div>
+
                   <b>Connect</b>
-             
-                <br />
-                <div className="label1" width="10vh">
-                  Meet students interested in developer technologies at your
-                  university. All are welcome, including those with diverse
-                  backgrounds and different majors.
+
+                  <br />
+                  <div className="label1" width="10vh">
+                    Meet students interested in developer technologies at your
+                    university. All are welcome, including those with diverse
+                    backgrounds and different majors.
+                  </div>
                 </div>
-              </div>
-              <div></div>
-              <div className="Icon2" >
-                <div className="logo-anime-learn">
-                
-                  {" "}
-                  <Icon
-                    icon="dashicons:welcome-learn-more"
-                   
-                    width="70"
-                    height="70"
-                  />
+                <div></div>
+                <div className="Icon2">
+                  <div className="logo-anime-learn">
+                    {" "}
+                    <Icon
+                      icon="dashicons:welcome-learn-more"
+                      width="70"
+                      height="70"
+                    />
+                  </div>
+
+                  <b>Learn</b>
+
+                  <br />
+                  <div className="label2">
+                    Learn about a range of technical topics and gain new skills
+                    through hands-on workshops, events, talks, and
+                    project-building activities - both online and in-person.
+                  </div>
                 </div>
-              
-                  <b >Learn</b>
-                
-                <br />
-                <div className="label2">
-                  Learn about a range of technical topics and gain new skills
-                  through hands-on workshops, events, talks, and
-                  project-building activities - both online and in-person.
-                </div>
-              </div>
-              <div></div>
-              <div className="Icon3" >
-               <div className="logo-anime-grow">
-                  <Icon
-                    icon="uil:arrow-growth"
-                  
-                    width="70"
-                    height="70"
-                  />
-               </div>
-           
+                <div></div>
+                <div className="Icon3">
+                  <div className="logo-anime-grow">
+                    <Icon icon="uil:arrow-growth" width="70" height="70" />
+                  </div>
+
                   <b>Grow</b>
-              
-                <br />
-                <div className="label3">
-                  Apply new learnings to build great solutions for local
-                  problems. Advance your skills, career, and network. Give back
-                  to your community by helping others learn, too.
+
+                  <br />
+                  <div className="label3">
+                    Apply new learnings to build great solutions for local
+                    problems. Advance your skills, career, and network. Give
+                    back to your community by helping others learn, too.
+                  </div>
                 </div>
-              </div>
-              <div></div>
+                <div></div>
+              </center>
             </div>
           )}
           <br />
           <br />
-          
         </div>
       </div>
-    
       ;
-      <Footers/>
+      <Footers />
     </div>
-    
   );
 }
 
