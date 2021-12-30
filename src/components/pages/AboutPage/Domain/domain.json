@@ -1,26 +1,26 @@
 [
     {
-        "img":"https://thumbs.dreamstime.com/z/artificial-intelligence-logo-icon-vector-symbol-ai-deep-learning-future-technology-concept-design-artificial-intelligence-logo-125251155.jpg",
+        "img":"https://avatars.githubusercontent.com/u/15658638?s=280&v=4",
         "domain":"Artificial intelligence"
     },
     {
-        "img":"https://png.pngtree.com/png-clipart/20201216/original/pngtree-web-development-carton-box-png-image_5692290.jpg",
+        "img":"https://angular.io/assets/images/logos/angular/shield-large.svg ",
         "domain":"Web Development"
     },
     {
-        "img":"https://thumbs.dreamstime.com/z/white-cloud-computing-simple-icon-logo-dark-background-133071567.jpg",
+        "img":"https://www.gstatic.com/devrel-devsite/prod/v84e6f6a61298bbae5bb110c196e834c7f21fe3fb34e722925433ddb936d280c9/cloud/images/favicons/onecloud/super_cloud.png",
         "domain":"Cloud Development"
     },
     {
-        "img":"https://avatars.githubusercontent.com/u/15658638?s=280&v=4",
+        "img":"https://www.freepnglogos.com/uploads/512x512-logo/512x512-transparent-logo-github-logo-24.png",
         "domain":"Open Source"
     },
     {
-        "img":"https://icons-for-free.com/iconfiles/png/512/android+logo+mobile+mobile+phone+icon-1320196075444927847.png",
+        "img":"https://developer.android.com/images/cluster-illustrations/kotlin-hero.svg",
         "domain":"Android Development"    
     },
     {
-        "img":" http://t3.gstatic.com/images?q=tbn:ANd9GcQ3Cf8Z_a1tggWXvuk2FDREJ-g3t0Mkr5x9M3M7HXkSRPWhoIns",
+        "img":" https://i.ibb.co/94zzQ8r/es.png",
         "domain":"Embedded Systems"
     },
     {
@@ -28,7 +28,7 @@
         "domain":"Cyber Security"
     },
     {
-        "img":"https://pbs.twimg.com/profile_images/1375177275528769539/6jGao2yV_400x400.jpg",
+        "img":"https://i.ibb.co/jTVws2s/20211230-212722-0000.png",
         "domain":"Flutter Development"
     }
 ]

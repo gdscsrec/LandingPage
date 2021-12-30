@@ -5,7 +5,9 @@
   padding: 200px;
   height: 90vh;
 }
-
+.l2 {
+  width: 100px;
+}
 .Dis {
   font-size: 40px;
   text-align: center;
@@ -14,24 +16,22 @@
   font-size: 20px;
 }
 .anim1 {
-  width: 12%;
+  width: 8%;
   float: left;
   overflow: hidden;
-  padding: 10px;
   font-weight: bolder;
   border-right: 0.15em solid orange;
   white-space: nowrap;
-  margin: 0 auto;
   letter-spacing: 0.15em;
   font-size: 15px;
-  margin-left: 15vw;
+  margin-left: 25vw;
   margin-top: 20vh;
   animation: typing 5s steps(40, end) infinite;
 }
 .anim2 {
   width: 15%;
   margin-left: 70vw;
-  margin-top: -40vh;
+  margin-top: -25vh;
   overflow: hidden;
   border-right: 0.15em solid orange;
   white-space: nowrap;
@@ -67,7 +67,7 @@
     width: 0;
   }
   to {
-    width: 12%;
+    width: 9%;
   }
 }
 @keyframes typing2 {
@@ -75,7 +75,7 @@
     width: 0;
   }
   to {
-    width: 15%;
+    width: 14%;
   }
 }
 @keyframes blink-caret {
@@ -143,6 +143,24 @@
   text-align: justify;
   padding: 5px;
 }
+@media only screen and (max-width: 1248px) {
+  .l2 {
+    width: 150px;
+  }
+  .Dis {
+    margin-top: 0;
+  }
+  .clg {
+    font-size: 10;
+  }
+  .slidebody {
+    width: 100%;
+    height: 10vh;
+  }
+  .anim2 {
+    margin-top: -10vh;
+  }
+}
 @media only screen and (max-width: 900px) {
   .design {
     font-size: 1.4vh;
@@ -151,14 +169,14 @@
     padding: 10px;
   }
   .anim1 {
-    width: 30%;
-    margin-left: 10vw;
+    width: 25%;
+    margin-left: 2vw;
     font-size: 10px;
     overflow: hidden;
     border-right: 0.1em solid orange;
     white-space: nowrap;
-    margin-top: 15vh;
     letter-spacing: 0.15em;
+    margin-top: 10vh;
     animation: typing 5s steps(40, end) infinite;
   }
   .logo-anime-connect {
@@ -183,13 +201,13 @@
     color: rgb(7, 175, 77);
   }
   .anim2 {
-    width: 52%;
+    width: 40%;
     font-size: 10px;
     overflow: hidden;
     border-right: 0.1em solid orange;
     white-space: nowrap;
-    margin-left: 60vw;
-    margin-top: -40vh;
+    margin-left: 55vw;
+    margin-top: -48vh;
     letter-spacing: 0.15em;
     animation: typing2 5s steps(40, end) infinite;
   }
@@ -199,7 +217,7 @@
       width: 0;
     }
     to {
-      width: 30%;
+      width: 25%;
     }
   }
   @keyframes typing2 {
@@ -219,20 +237,21 @@
       border-color: orange;
     }
   }
+  .l2 {
+    width: 50px;
+  }
   .Dis {
-    font-size: 40px;
-    width: 50vw;
-    align-items: center;
-    margin-left: -2vw;
+    font-size: 16px;
+    width: 90vw;
     margin-top: 20vh;
   }
   .clg {
-    font-size: 20px;
+    font-size: 13px;
   }
   .slidebody {
     width: 100%;
     height: auto;
-    margin-top: 10vh;
+    margin-top: 0;
   }
   .ics {
     width: 100vw;
@@ -240,7 +259,7 @@
   .Icon1 {
     width: 100%;
     font-size: 15px;
-    margin-top: 10vh;
+    margin-top: 0;
     /* align-items: center; */
 
     /* 
@@ -281,7 +300,7 @@
     /* margin-left: 1px; */
   }
   .Icon1:hover .logo-anime-connect {
-    color:  #4285f4;
+    color: red;
   }
 
   .Icon2:hover .label2 {
@@ -291,7 +310,7 @@
     /* margin-left: 10px; */
   }
   .Icon2:hover .logo-anime-learn {
-    color: rgb(229, 233, 13);
+    color: #fbbc04;
   }
 
   .Icon3:hover .label3 {
@@ -301,15 +320,6 @@
     /* margin-left: 10px; */
   }
   .Icon3:hover .logo-anime-grow {
-    color: rgb(7, 175, 77);
-  }
-}
-@media only screen and (max-width: 1100px) {
-  .Dis {
-    margin-top: 20vh;
-  }
-  .slidebody {
-    width: 100%;
-    height: 10vh;
+    color: #34a853;
   }
 }

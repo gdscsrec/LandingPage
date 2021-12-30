@@ -6,6 +6,7 @@ import useWindowSize from "./useWindowSize";
 import { Icon } from "@iconify/react";
 import SliderImages from "./SliderImages.json";
 import Footers from "../../Footer/Footer";
+import l2 from "../../images/L1.png";
 function App() {
   const { width } = useWindowSize();
   console.log({ width });
@@ -18,6 +19,8 @@ function App() {
             <center>
               {width > 900 ? (
                 <div className="Dis">
+                  <img src={l2} alt="GDSC Logo" className="l2" />
+                  <br />
                   <b>Google Developer Student Clubs </b>
                   <div className="clg">
                     <b>Sri Ramakrishna Engineering College</b>
@@ -25,7 +28,12 @@ function App() {
                 </div>
               ) : (
                 <div className="Dis">
-                  <b>GDSC</b>
+                  <img src={l2} alt="GDSC Logo" className="l2" />
+
+                  <b>
+                    <br />
+                    Google Developer Student Clubs
+                  </b>
                   <div className="clg">
                     <b>SREC</b>
                   </div>
@@ -69,7 +77,7 @@ function App() {
             ) : (
               <CarouselProvider
                 naturalSlideWidth={100}
-                naturalSlideHeight={75}
+                naturalSlideHeight={90}
                 totalSlides={3}
                 isPlaying={true}
                 interval={8000}
@@ -234,7 +242,7 @@ function App() {
           <br />
         </div>
       </div>
-      ;
+      
       <Footers />
     </div>
   );
