@@ -8,9 +8,8 @@ export const InfoRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
-  align-items: center;
   flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
-  padding-bottom: 10px;
+
 `;
 export const InfoColumn = styled.div`
   margin-bottom: 10px;
@@ -25,6 +24,7 @@ export const InfoColumn = styled.div`
     flex-basis: 100%;
     display: flex;
     justify-content: center;
+    margin: 0px 0px;
   }
 `;
 export const TextWrapper = styled.div`
@@ -32,7 +32,7 @@ export const TextWrapper = styled.div`
   padding-top: 0;
   padding-bottom: 60px;
   @media screen and (max-width: 768px) {
-    padding-bottom: 65px;
+    padding-bottom: 10px;
   }
 `;
 export const TopLine = styled.div`

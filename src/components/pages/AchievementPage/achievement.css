@@ -36,6 +36,8 @@
 .card_achieve {
   width: 50%;
 }
+
+
 b{
   font-size:30px;
 }
@@ -160,6 +162,41 @@ b{
     padding: 0px;
     margin: 0.5cm 0.5cm 0.5cm 0.5cm;
   }
+  #learn {
+    font-size: large;
+    color: #ffffff;
+    background-color:#4285F4;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 4%;
+    
+  }
+  
+  #learn:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top:0;
+    left:50%;
+    right:50%;
+    bottom:0;
+    opacity:0;
+    content:"";
+    background-color:#4285F4;
+    padding: 10px;
+    }
+    #learn:hover{
+        color:black;
+        cursor:pointer;
+      }
+    
+      #learn:hover:before{
+        transition: 0.5s all ease;
+        left:0;
+        right:0;
+      
+     
+      }
   .imgload{
     object-fit: contain;
     align-items: center;
@@ -181,13 +218,14 @@ b{
     max-height: 750px;
     margin-left: 1cm;
   } */
-  /* .img_achieve {
-    height: 120px;
-    width: 150px;
-    margin-left: 60px;
+  .img_achieve {
+    height: 150%;
+    width: 180%;
+    margin-left: -70px;
+    object-fit: contain;
     
   }
-  .imgload {
+  /*.imgload {
     height: 60px;
     float: left;
     margin-right: 1cm;

@@ -28,6 +28,7 @@
 }
 .dw-heart {
   font-size: 20px;
+  padding-top: 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   padding-bottom: 10px;
@@ -36,7 +37,6 @@
 .quicklinks {
   color: black;
   display: block;
-
   justify-content: center;
   margin: auto;
   padding-bottom: 6px;
@@ -57,14 +57,47 @@
   background-color: white;
   font-size: 12px;
 }
+
 @media (max-width: 900px) {
+  
   .quicklinks {
     color: black;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    grid-gap: 1px;
-    justify-content: center;
-    margin: auto;
-    padding-bottom: 0px;
+ 
+    padding-bottom: 50px;
+  }
+  .dw-heart {
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+  }
+  .scrolling {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  .scrolling h2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 1;
+    font-size: 4em;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    transform: translateX(100%);
+    animation: scrolling 15s linear infinite;
+  }
+  @keyframes scrolling {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 }

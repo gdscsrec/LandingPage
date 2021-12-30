@@ -21,48 +21,21 @@ export default function footers() {
           </a>
         </div>
         <h2 className="dw-heart"> Developed with ❤️ by </h2>
-
-        <div className="quicklinks">
-          <a href="https://www.linkedin.com/in/sanjaydevtech" target="_blank">
-            Sanjay
-          </a>
-          <a
-            href="https://www.linkedin.com/in/jayasakthi-balaji-g-337128204"
-            target="_blank"
-          >
-            Jayasakthi Balaji
-          </a>
-          <a
-            href="https://www.linkedin.com/in/jayasakthi-balaji-g-337128204"
-            target="_blank"
-          >
-            Harshanth
-          </a>
-          <a href="https://www.linkedin.com/in/harifbx" target="_blank">
-            Swetha
-          </a>
-          <a href="http://www.linkedin.com/in/mohamedfazil17" target="_blank">
-            Swethasri
-          </a>
-          <a
-            href="https://www.linkedin.com/in/jaswanth-solai-ba49b3191"
-            target="_blank"
-          >
-            Sneha
-          </a>
-          <a
-            href="https://www.linkedin.com/in/varniha-s-6a7232222"
-            target="_blank"
-          >
-            Nandhini
-          </a>
-          <a
-            href="https://www.linkedin.com/in/geetha-palanisamy-b2323b193"
-            target="_blank"
-          >
-            Aadhitya
-          </a>
+       <div className="scrolling">       
+       <div className="quicklinks">
+      <h2>
+          <a href="https://www.linkedin.com/in/sanjaydevtech">Sanjay</a>
+          <a href="https://www.linkedin.com/in/jayasakthi-balaji-g-337128204">Jayasakthibalaji</a>
+          <a href="https://www.linkedin.com/in/adithya-krishnan-08051221b">Adithyakrishnan</a>
+          <a href="https://www.linkedin.com/in/sneha-g-14736220a">Sneha</a>
+          <a href="https://www.linkedin.com/in/swethasri-r-12559021a">Swethasri</a>
+          <a href="https://www.linkedin.com/in/swetha-vijayakumar-9372001b5" >Swetha</a>        
+          <a href="https://www.linkedin.com/in/nandhini-lingaraj-65b645191">Nandhini</a> 
+          <a href="http://www.linkedin.com/in/mohamedfazil17">Mohamedfazil</a>
+          </h2>
         </div>
+        </div>
+ 
         <p className="GDSC" text-color="white">
           Google Developer Student Club :)
         </p>

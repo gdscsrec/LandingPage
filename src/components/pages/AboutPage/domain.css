@@ -10,7 +10,8 @@
 
     align-items: center;
     font-size: calc(1.325rem + 0.9vw);
-    width: auto;
+    
+    max-width: max-content;
     margin: 20px;
     padding: 10px;
     font-weight: bolder;
