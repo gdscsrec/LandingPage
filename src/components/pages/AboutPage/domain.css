@@ -15,9 +15,16 @@
   padding: 10px;
   font-weight: bolder;
 }
+
 .box {
   width: 90%;
   margin: 20px 30px;
+}
+.Domain_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .domainname {
   margin-top: 1cm;

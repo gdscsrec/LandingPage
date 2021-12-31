@@ -19,12 +19,12 @@ function MobileAchievementItem(props) {
         <div className="card_achieve"></div>
         
         <center>  
-         <b>{item.headline}</b>
+         <b className="achievements_title">{item.headline}</b>
         </center>
         <br/>
          <button id="learn"> Learn more</button>
         <center>
-       {show &&  <p id="p1">{item.description}</p>}
+       {show &&  <p id="p1" className="achievements_desc">{item.description}</p>}
        </center>
       </div>
     </div>  

@@ -45,9 +45,9 @@ const Events = () => {
 					  <p>{item.title}</p>
 					</center>
 					<p>{item.desc}</p>
-					<center>
+					{/* <center>
 					  <button id="rsvp">LINK</button>
-					</center>
+					</center> */}
 				  </div>)
 				
             })}
