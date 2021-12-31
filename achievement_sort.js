@@ -8,8 +8,8 @@ function dynamicSort(property, order) {
     property = property.substr(1);
   }
   return function (a, b) {
-    ad = new Date(a[property]);
-    bd = new Date(b[property]);
+    const ad = new Date(a[property]);
+    const bd = new Date(b[property]);
     console.log(a[property], b[property], ad, bd);
     var result = ad < bd ? order : ad > bd ? -order : 0;
     return result * sortOrder;
@@ -19,7 +19,7 @@ function dynamicSort(property, order) {
 achieve.sort(dynamicSort("Date", 1));
 
 fs.writeFile(
-  "D:/project/gdsc/landing-site/gdsc_landing-site/src/components/pages/AchievementPage/sorted_achievements.json",
+  "public/sorted_achievements.json",
   JSON.stringify(achieve),
   function (err) {
     if (err) throw err;

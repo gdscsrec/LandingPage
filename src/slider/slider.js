@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./slider.css";
 
-const slider = () => {
+const slider = (props) => {
     return <div>
         <Carousel infiniteLoop autoPlay>
             <div className="image">

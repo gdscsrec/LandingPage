@@ -2,82 +2,237 @@
     "id":"1",
     "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
     "title": "30 DAYS OF GOOGLE CLOUD:",
-    "desc": "We were proud that Sri Ramakrishna Engineering college was selected to host 30 days of Google cloud one among few institutions.As the name suggests there will be 30 days of Google maniac .It introduces one to today's developing technologies like computer applications , ML and etc; The event started from October 1."
-}, {
+    "desc": "We were proud that Sri Ramakrishna Engineering college was selected to host 30 days of Google cloud one among few institutions.As the name suggests there will be 30 days of Google maniac .It introduces one to today's developing technologies like computer applications , ML and etc; The event started from October 1 2020.",
+    "start-date":"2020-10-01"
+    
+}, 
+{
     "id":"2",
     "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "30 DAYS OF GOOGLE CLOUD:",
+    "desc": "We were proud that Sri Ramakrishna Engineering college was selected to host 30 days of Google cloud one among few institutions.As the name suggests there will be 30 days of Google maniac .It introduces one to today's developing technologies like computer applications , ML and etc; The event started from October 1 2021.",
+    "start-date":"2021-10-01"
+}, {
+    "id":"3",
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
     "title": "EMBEDDED SYSTEMS ",
-    "desc": "The event “Embedded Systems-INFOBER” was organized by our DSC SREC team to make undergraduates get more knowledge about processors and process control blocks (PCB) to understand the operations of operating systems. This occasion was scheduled on October 29 at 6.00 p.m. in head of Nivesh A., DSC SREC Technical Lead."
-    }, {
-        "id":"3",
-        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
-    "title": "OPEN-SOURCE GIT AND GITHUB",
-    "desc": "The event “Open-Source-INFOBER with DSC SREC” was directed to learn more about open source, Linux, Git and GitHub and get to know how to collaborate with the entire software world to get a code solved. The event held on October 31,2020 at 6 p.m.  – 7:30 p.m. The participants got an opportunity to interact with the experts Mr. Simuchand B., DSC SREC Lead, Git and GitHub and Mr. Srinivas P., DSC SREC Executive Lead, Linux OS."
-
+    "desc": "The event “Embedded Systems-INFOBER” was organized by our DSC SREC team to make undergraduates get more knowledge about processors and process control blocks (PCB) to understand the operations of operating systems. This occasion was scheduled on October 29 at 6.00 p.m. in head of Nivesh A., DSC SREC Technical Lead.",
+    "start-date":"2020-10-29"
     }, {
         "id":"4",
         "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
-    "title": "ANDROID STUDY JAMS",
+    "title": "OPEN-SOURCE GIT AND GITHUB",
+    "desc": "The event “Open-Source-INFOBER with DSC SREC” was directed to learn more about open source, Linux, Git and GitHub and get to know how to collaborate with the entire software world to get a code solved. The event held on October 31,2020 at 6 p.m.  – 7:30 p.m. The participants got an opportunity to interact with the experts Mr. Simuchand B., DSC SREC Lead, Git and GitHub and Mr. Srinivas P., DSC SREC Executive Lead, Linux OS.",
+    "start-date":"2020-10-31"
 
-    "desc": "The motive of the event “Android Study Jams” was to educate the partakers about the android software development and to know how the program works and the event made eligible for all beginners, intermediate and expert level. This sequence of events was presented by DSC SREC team on December 1, 2020 at 6 p.m."
     }, {
         "id":"5",
-            "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
-        "title": "ANDROID STUDY JAMS #1",
-        "desc": "The event “Android Study Jams #1” was organized by the team of DSC SREC. The agenda of the event was to educate about the basics of Kotlin in Android development. This event was planned on December 5, 2020 at 6 p.m. "
-        
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "ANDROID STUDY JAMS",
+
+    "desc": "The motive of the event “Android Study Jams” was to educate the partakers about the android software development and to know how the program works and the event made eligible for all beginners, intermediate and expert level. This sequence of events was presented by DSC SREC team on December 1, 2020 at 6 p.m.",
+    "start-date":"2020-12-01",
+    "status":"ongoing"
     }, {
         "id":"6",
+            "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+        "title": "ANDROID STUDY JAMS #1",
+        "desc": "The event “Android Study Jams #1” was organized by the team of DSC SREC. The agenda of the event was to educate about the basics of Kotlin in Android development. This event was planned on December 5, 2020 at 6 p.m. ",
+        "start-date":"2020-12-05"
+        
+    }, {
+        "id":"7",
 
     "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
     "title":  "ANDROID STUDY JAMS#2",
 
-    "desc":"The event “Android Study Jams #2” was organized by DSC SREC team. The agenda of the event was to educate about the basics of user interaction and get to know about the recycler view. This event was planned on December 6, 2020 at 6 p.m."
+    "desc":"The event “Android Study Jams #2” was organized by DSC SREC team. The agenda of the event was to educate about the basics of user interaction and get to know about the recycler view. This event was planned on December 6, 2020 at 6 p.m.",
+    "start-date":"2020-12-06"
     
 }, {
-    "id":"7",
+    "id":"8",
     "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
 "title": "90 SECONDS OF LEARNING",
 
-"desc": "  The main moto of this series of events was to stream a short video of 90 seconds and to give an informative stuff about Artificial Intelligence, Machine Learning, Android Development, Augmented Reality and much domains."
-
-}, {
-    "id":"8",
-
-    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
-"title": "90 SECONDS OF LEARNING – CYBER SECURITY",
-
-"desc": "The event “90 Seconds of Learning-Cyber Security” was conducted by DSC SREC team and have streamed an informative video of 90 seconds in you tube about email spoofing in the domain of Cyber Security."
+"desc": "  The main moto of this series of events was to stream a short video of 90 seconds and to give an informative stuff about Artificial Intelligence, Machine Learning, Android Development, Augmented Reality and much domains.",
+"start-date":"2020-12-09"
 
 }, {
     "id":"9",
 
     "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
-"title": "90 SECONDS OF LEARNING – CLOUD COMPUTING",
+"title": "90 SECONDS OF LEARNING – CYBER SECURITY",
 
-"desc": "The event “90 Seconds of Learning-Cloud Computing” was organized by the team of DSC SREC and have broadcasted an informative video of 90 seconds in you tube about AI Cloud Computing in the domain of Cloud Computing."
+"desc": "The event “90 Seconds of Learning-Cyber Security” was conducted by DSC SREC team and have streamed an informative video of 90 seconds in you tube about email spoofing in the domain of Cyber Security.",
+"start-date":"2020-12-23"
+
 }, {
     "id":"10",
 
     "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
-"title": "90 SECONDS OF LEARNING – AR - VR",
+"title": "90 SECONDS OF LEARNING – CLOUD COMPUTING",
 
-"desc":"The event “90 Seconds of Learning-AR - VR” was directed by DSC SREC team and have streamed an informative video of 90 seconds in you tube about Augmented Reality in the domain of Augmented Reality and Virtual Reality."
-
+"desc": "The event “90 Seconds of Learning-Cloud Computing” was organized by the team of DSC SREC and have broadcasted an informative video of 90 seconds in you tube about AI Cloud Computing in the domain of Cloud Computing.",
+"start-date":"2020-12-25"
 }, {
     "id":"11",
 
     "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
-"title": "90 SECONDS OF LEARNING – APP DEVELOPMENT",
+"title": "90 SECONDS OF LEARNING – AR - VR",
 
-"desc": "The event “90 Seconds of Learning-AR - VR” was executed by DSC SREC team and have streamed a short informative video of 90 seconds in you tube about XML Syntax in the domain of App Development."
-
+"desc":"The event “90 Seconds of Learning-AR - VR” was directed by DSC SREC team and have streamed an informative video of 90 seconds in you tube about Augmented Reality in the domain of Augmented Reality and Virtual Reality.",
+"start-date":"2020-12-29"
 }, {
     "id":"12",
 
     "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+"title": "90 SECONDS OF LEARNING – APP DEVELOPMENT",
+
+"desc": "The event “90 Seconds of Learning-AR - VR” was executed by DSC SREC team and have streamed a short informative video of 90 seconds in you tube about XML Syntax in the domain of App Development.",
+"start-date":"2021-01-07"
+
+}, {
+    "id":"13",
+
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
 "title": "SOLUTION CHALLENGE",
 
-"desc": "The partakers in the event “The Google Developer Student Clubs 2021 Solution Challenge” was supposed to build good solutions for the real time problems and this was the theme for the info session. The occasion was scheduled on February 15,2021 at 6:30 p.m.The series of mentoring sessions on various domains for “The Google Developer Student Clubs 2021 Solution Challenge” event was planned to enrich the participants on the industry standards of approaching a problem. The event held on February 21, 2021 at 11 p.m. and the participants get interacted with the expert Mr. Manoj R., user Experience Consultant Ajira Tech."
+"desc": "The partakers in the event “The Google Developer Student Clubs 2021 Solution Challenge” was supposed to build good solutions for the real time problems and this was the theme for the info session. The occasion was scheduled on February 15,2021 at 6:30 p.m.The series of mentoring sessions on various domains for “The Google Developer Student Clubs 2021 Solution Challenge” event was planned to enrich the participants on the industry standards of approaching a problem. The event held on February 21, 2021 at 11 p.m. and the participants get interacted with the expert Mr. Manoj R., user Experience Consultant Ajira Tech.",
+"start-date":"2021-02-21"
 
-}]
+},
+{
+    "id":"14",
+
+    "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+"title": "CYBER SECURITY",
+
+"desc": "Cyber Security aims to reduce the risk of Cyber-attacks and protect the computer systems from unauthorized access and let to know about importance of data protection. The event of “Cyber Security – INFOBER with DSC SREC” was conducted by DSC SREC team. The webinar held on October 26, 2020 at 6 p.m. - 7:30 p.m. The participants get interacted with the experts Mr. Sankarraj Subramanian, CEO & Founder Prompt InfoTech, Cyber Forensics Analyst and Mr. Hari Kishore V.P., Technical Lead, DSC SREC. ",
+"start-date":"2020-10-26"
+
+},
+{
+    
+
+        "id":"15",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "TENSORFLOW",
+    
+    "desc": "The event “TensorFlow” was organized by DSC SREC team. This event’s main motto was to understand and learn in Tamil language everywhere. People say learning in our own language increases the knowledge power so TensorFlow makes this possible by letting people learn in Tamil. This event was conducted on 27th March from 05:00 PM onwards.",
+    "start-date":"2021-03-27"
+    
+    },
+    
+    {
+    
+
+        "id":"16",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "DESIGN-O-THON",
+    
+    "desc": "This was a 7-hour hackathon event for designing UI for an android app. The theme for the app was given on-spot. After completion of the project, students were asked to upload it in GitHub platform. This event was exclusively conducted for 2nd year students from CSE department. It was held on 28th September from 9AM to 4PM at SREC campus.",
+    "start-date":"2021-09-28"
+    
+    },
+    {
+    
+
+        "id":"17",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "GIT AND GITHUB ",
+    
+    "desc": "Git and GitHub organized a 2-days hands-on workshop on free and open-source contributions. The Lead of GDSC NIET, Ankita Saloni was the speaker for this event. This event was broadcast live on YouTube for students to watch. Everyone who participated received a participation certificate. This 2-day workshop was conducted on the 16th and 17th of October from 4 PM to 5 PM.",
+    "start-date":"2021-10-16"
+    
+    },
+
+    {
+    
+
+        "id":"18",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "LEADERBOARD",
+    
+    "desc": "The “Leaderboard” was introduced by the GDSC SREC team to know the progress and compare it with the progress of others in the '30 days of Google Cloud' program. We always look for competition, which propel us forward to achieve our dream. That's how the leaderboard for '30 days of Google Cloud' works and that's why it came into existence!",
+    "start-date":"2021-10-18"
+    
+    },
+    {
+    
+
+        "id":"19",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "IMPACTO",
+    
+    "desc": "GDSC SREC club proudly presented IMPACTO which led huge impact on participants and provided some real knowledge to them. Leader is the one whose presence has huge impact onothers. This great event is conducted on October 9,2020.",
+    "start-date":"2020-10-09"
+    
+    },
+    {
+    
+
+        "id":"20",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "MACHINE LEARNING EVENT",
+    
+    "desc": "Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes . The event was conducted by our GDSC SREC club and Infober where the participants interacted with the experts. The event took place on October 10 2020 6:00 pm -7:30 pm . The expert speakers are NavaneethMaligan R&D consultant head Coimbatore ai and tensorflow User group Coimbatore and KaleelRahman technical lead of GDSC SREC",
+    "start-date":"2020-10-10"
+    
+    },
+    {
+    
+
+        "id":"21",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "ANDROID DEVELOPMENT",
+    
+    "desc": "Infober with GDSC SREC presented an event on Android Development with a theme of stop consuming , start developing . The speaker of the events are NiharikaArora - Guest speaker senior android engineer along with our technical team lead Sanjay S and app developmen team members Rohinth S ,Sree Haran A. The event was conducted on Oct 11 2020 at 11-12:30 pm.",
+    "start-date":"2020-10-11"
+    
+    },
+    {
+    
+
+        "id":"22",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "AR/VR",
+    
+    "desc": "Be it redesigning a house or looking for a new specs or gaming we all like to do things from where we are. Ar and vr techniques make those happen. Infober with GDSC SREC conducted an event 'Augmented reality/ virtual reality'.Speakers of the event :AshokkumarManisekaran ( entrepreneur , developer & trainer at praya labs)Sreeja S (GDSC technical lead)Snehaprabha(AR-VR team member) Date and time- oct 18 2020 & 11 am- 12:30 pm",
+    "start-date":"2020-10-18"
+    
+    },
+    {
+    
+
+        "id":"23",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "WEB DEVELOPMENT",
+    
+    "desc": "Searching in internet and exploring has made things too easy for us ! Wonder how? Web technology . The event led participants on exploring the web pages and websites so on. The event was organised byHarrish - GDSC SREC technical lead, suryanarayan ,sahithya S, Mahendraprasad R, Ganesh Kumar M . Date and time : October 24 ,2020 6pm-7:30 pm.",
+    "start-date":"2020-10-24"
+    
+    },
+    {
+    
+
+        "id":"24",
+    
+        "img": "https://pbs.twimg.com/media/EjPNu1tXsAAwaY8.jpg",
+    "title": "CLOUD COMPUTING",
+    
+    "desc": "Our storage space in the device is always insufficient and we keep thinking about a back up.Why worry about a back up when cloud is there for you! Explore cloud computing For it .The participants explored it well with a guidance of an expert Dharmeshvaya - Director of Agrahyah technologies Harshita P - GDSC SREC technical lead Kiran Kumar M - cloud computing team member Date and time: October 25, 6 pm",
+    "start-date":"2020-10-25"
+    
+    }
+    
+    
+]

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./achievement.css";
-import "./AbtData.json";
+
 import YoutubeEmbed from "./YoutubeEmbed";
 import Footers from "../../Footer/Footer";
 import useMobile from "./useMobile.js";
@@ -17,7 +17,7 @@ const Achievements = () => {
   };
   useEffect(() => {
     // fetch('../AchievementPage/AbtData.json')
-    fetch("./sorted_achievements.json", {
+    fetch("sorted_achievements.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",

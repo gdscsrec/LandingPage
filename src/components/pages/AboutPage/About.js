@@ -15,6 +15,15 @@ function About() {
     });
     return x;
   }, [Profile]);
+  const list1 = useMemo(() => {
+    const x = [];
+    let i = -1;
+    Domain.forEach((v, index) => {
+      if (index % 8 === 0) ++i;
+      x[i] = (x[i] ?? []).concat(v);
+    });
+    return x;
+  }, [Domain]);
   return (
     <>
       <InfoSection {...ObjOne} />
@@ -25,11 +34,17 @@ function About() {
             <h3 className="head1">Our Domains</h3>
           </center>
           <center>
-            {Domain.map((DomainName, index) => {
+           {list1.map((Domaing, index) => {
               return (
-                <div id="container">
-                  <img src={DomainName.img} className="domainimg" alt=" " />
-                  <h4 className="domainname"> {DomainName.domain}</h4>
+                <div className="Domain_Container">
+                  {Domaing.map((domain) => {
+                    return (
+                      <div id="container">
+                        <img src={domain.img} className="domainimg" alt=" " />
+                        <h4 className="domainname"> {domain.domain}</h4>
+                      </div>
+                    );
+                  })}
                 </div>
               );
             })}
