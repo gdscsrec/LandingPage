@@ -40,7 +40,7 @@ const Events = () => {
               </center>
               <p>{item.desc}</p>
               <center>
-                <button id="rsvp">RSVP</button>
+                <button id="rsvp">LINK</button>
               </center>
             </div>
           ))}

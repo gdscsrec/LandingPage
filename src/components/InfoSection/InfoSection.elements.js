@@ -9,7 +9,6 @@ export const InfoRow = styled.div`
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
-
 `;
 export const InfoColumn = styled.div`
   margin-bottom: 10px;
@@ -74,4 +73,5 @@ export const Img = styled.img`
   vertical-align: middle;
   display: inline-block;
   max-height: 500px;
+  margin-top: -50px;
 `;

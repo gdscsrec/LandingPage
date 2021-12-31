@@ -4,12 +4,11 @@
   padding: 0;
   font-family: monospace;
 }
-body{
-  background-image: url('https://imgpp.com/images/2021/12/27/imageedit_3_3890702115.png');
-   background-repeat: no-repeat;
+body {
+  background-image: url("https://imgpp.com/images/2021/12/27/imageedit_3_3890702115.png");
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:cover;
-  
+  background-size: cover;
 }
 .container {
   width: 100%;
@@ -22,37 +21,41 @@ body{
 #rsvp {
   font-size: large;
   color: #ffffff;
-  background-color:#4285F4;
+  background-color: #4285f4;
   width: 20%;
+  padding: 5px;
   margin: 15px;
   border-radius: 5px;
   height: 4%;
   border-color: white;
-  
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
 }
-#rsvp:before{
-transition: 0.5s all ease;
-position: absolute;
-top:0;
-left:50%;
-right:50%;
-bottom:0;
-opacity:0;
-content:"";
-background-color:#4285F4;
+#rsvp:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #4285f4;
 }
-#rsvp:hover{
-    color:black;
-    cursor:pointer;
-  }
+#rsvp:hover {
+  color: #4285f4;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-color: #4285f4;
+}
 
-  #rsvp:hover:before{
-    transition: 0.5s all ease;
-    left:0;
-    right:0;
-    opacity:1;
-    z-index:-1;
-  }
+#rsvp:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
 
 .card1 {
   width: 100%;
@@ -61,7 +64,7 @@ background-color:#4285F4;
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   margin: 10px 0px;
-  box-shadow: 3px 3px 7px black;
+  box-shadow: 3px 3px 5px rgba(125, 125, 125, 0.5);
 }
 .id {
   width: 40px;
@@ -80,44 +83,44 @@ p {
   margin: 15px 0 0 0;
   font-family: sans-serif;
 }
-.load_btn{
+.load_btn {
   width: 150px;
-  height:50px;
+  height: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
-  color:black;
+  color: black;
   border-radius: 5px;
-  transition:ease-out 0.3s;
-  font-size:1rem;
+  transition: ease-out 0.3s;
+  font-size: 1rem;
   margin-left: 420px;
   font-weight: bold;
   outline: none;
-  border:3px solid #4285F4;
-  position:relative;
-  z-index:1;
- }
- .load_btn:hover{
-   color:rgb(255, 255, 255);
-   cursor:pointer;
- }
- .load_btn:before{
-   transition: 0.5s all ease;
-   position: absolute;
-   top:0;
-   left:50%;
-   right:50%;
-   bottom:0;
-   opacity:0;
-   content:"";
-   background-color:#4285F4;
-  }
-  .load_btn:hover:before{
-    transition: 0.5s all ease;
-    left:0;
-    right:0;
-    opacity:1;
-    z-index:-1;
-  }
+  border: 3px solid #4285f4;
+  position: relative;
+  z-index: 1;
+}
+.load_btn:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.load_btn:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #4285f4;
+}
+.load_btn:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
 @media only screen and (max-width: 900px) {
   .design {
     font-size: 1.4vh;
@@ -147,30 +150,29 @@ p {
     size: 12cm;
   }
   .load_btn {
-    
     outline: none;
     width: 30%;
     height: 20%;
     margin: 30px 1px 15px 120px;
-    padding:3px;
+    padding: 3px;
     font-size: 15px;
     margin-left: 120px;
-  border:none;
-  color:black;
-  border-radius: 5px;
-  transition:ease-out 0.3s;
-  font-weight: bolder;
-  border:3px solid #4285F4;
-  position:relative;
-  z-index:1;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    transition: ease-out 0.3s;
+    font-weight: bolder;
+    border: 3px solid #4285f4;
+    position: relative;
+    z-index: 1;
   }
-  .load_btn:hover{
-    color:rgb(255, 255, 255);
-    cursor:pointer;
+  .load_btn:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
   }
-  .load_btn:before{
+  .load_btn:before {
     transition: 0.5s all ease;
     position: absolute;
-    top:0;
+    top: 0;
   }
 }

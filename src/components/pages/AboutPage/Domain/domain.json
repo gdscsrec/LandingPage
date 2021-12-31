@@ -1,34 +1,34 @@
 [
-    {
-        "img":"https://avatars.githubusercontent.com/u/15658638?s=280&v=4",
-        "domain":"Artificial intelligence"
-    },
-    {
-        "img":"https://angular.io/assets/images/logos/angular/shield-large.svg ",
-        "domain":"Web Development"
-    },
-    {
-        "img":"https://www.gstatic.com/devrel-devsite/prod/v84e6f6a61298bbae5bb110c196e834c7f21fe3fb34e722925433ddb936d280c9/cloud/images/favicons/onecloud/super_cloud.png",
-        "domain":"Cloud Development"
-    },
-    {
-        "img":"https://www.freepnglogos.com/uploads/512x512-logo/512x512-transparent-logo-github-logo-24.png",
-        "domain":"Open Source"
-    },
-    {
-        "img":"https://developer.android.com/images/cluster-illustrations/kotlin-hero.svg",
-        "domain":"Android Development"    
-    },
-    {
-        "img":" https://i.ibb.co/94zzQ8r/es.png",
-        "domain":"Embedded Systems"
-    },
-    {
-        "img":"https://i.pinimg.com/originals/c3/5d/26/c35d26d4694c379de137772659a40124.jpg",
-        "domain":"Cyber Security"
-    },
-    {
-        "img":"https://i.ibb.co/jTVws2s/20211230-212722-0000.png",
-        "domain":"Flutter Development"
-    }
+  {
+    "img": "/images/TF.png",
+    "domain": "Artificial intelligence"
+  },
+  {
+    "img": "/images/Web.png ",
+    "domain": "Web Development"
+  },
+  {
+    "img": "/images/Cl.png",
+    "domain": "Cloud Development"
+  },
+  {
+    "img": "https://www.freepnglogos.com/uploads/512x512-logo/512x512-transparent-logo-github-logo-24.png",
+    "domain": "Open Source"
+  },
+  {
+    "img": "https://developer.android.com/images/logos/android.svg",
+    "domain": "Android Development"
+  },
+  {
+    "img": " https://i.ibb.co/94zzQ8r/es.png",
+    "domain": "Embedded Systems"
+  },
+  {
+    "img": "https://pixabay.com/get/gbbbaad5cebaed90c0418b334628755e1a1ed850f160f2484258b6b41c517bd6991ecbe3f50bd6184d11465e357cd2f15.png?attachment=",
+    "domain": "Cyber Security"
+  },
+  {
+    "img": "https://i.ibb.co/jTVws2s/20211230-212722-0000.png",
+    "domain": "Flutter Development"
+  }
 ]

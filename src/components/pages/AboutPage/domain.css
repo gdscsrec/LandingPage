@@ -7,14 +7,13 @@
   font-weight: bolder;
 }
 .head2 {
+  align-items: center;
+  font-size: calc(1.325rem + 0.9vw);
 
-    align-items: center;
-    font-size: calc(1.325rem + 0.9vw);
-    
-    max-width: max-content;
-    margin: 20px;
-    padding: 10px;
-    font-weight: bolder;
+  max-width: max-content;
+  margin: 20px;
+  padding: 10px;
+  font-weight: bolder;
 }
 .box {
   width: 90%;
@@ -28,13 +27,14 @@
   padding-bottom: 30px;
 }
 .domainimg {
-  
   display: flex;
   margin: 20px 55px;
   width: 3cm;
   height: 3cm;
   border-radius: 100%;
-  
+}
+.Android {
+  scale: 1.2;
 }
 #container {
   display: flex;
@@ -42,15 +42,29 @@
   float: left;
   margin: 20px 58px;
 }
+.MeetTeam {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
 #container2 {
   display: flex;
   flex-direction: column;
-  float: left;
+
   margin: 20px 70px;
+}
+.Meet_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .profileimg {
   display: flex;
-  margin: 20px 90px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 40px;
   width: 3cm;
   height: 3cm;
   border-radius: 100%;
@@ -60,13 +74,11 @@
   line-height: auto;
   font-size: 13px;
   margin: 20px 40px;
-  
 }
 .profiledesc {
   font-size: 13px;
   margin-top: 10px;
   padding-bottom: 30px;
-  
 }
 @media only screen and (max-width: 900px) {
   .head1 {
@@ -76,13 +88,12 @@
   }
 
   .domainname {
-    display:flex;
+    display: flex;
     padding: 14px 0px 10px;
     font-size: 10px;
     color: #000;
     margin: 15px;
     font-weight: normal;
-    
   }
   .domainimg {
     display: flex;
@@ -93,7 +104,6 @@
     float: left;
   }
   #container {
-    
     display: flex;
     float: left;
     flex-direction: column;
@@ -125,7 +135,6 @@
     font-weight: bold;
   }
   .head2 {
-   
     display: inline-block;
     white-space: nowrap;
     font-size: 20px;
@@ -137,7 +146,6 @@
     font-weight: normal;
   }
   h3 {
-    
     font-size: 25px;
     font-weight: bolder;
   }
@@ -147,7 +155,7 @@
     width: 100%;
     margin: 10px 10px;
   }
-  .box1{
+  .box1 {
     width: 100%;
     margin: 10px 10px;
   }
@@ -158,13 +166,12 @@
   }
 
   .domainname {
-    display:flex;
+    display: flex;
     padding: 14px 0px 10px;
     font-size: 10px;
     color: #000;
     margin: 15px;
     font-weight: normal;
-    
   }
   .domainimg {
     display: flex;
@@ -175,7 +182,6 @@
     float: left;
   }
   #container {
-    
     display: flex;
     float: left;
     flex-direction: column;
@@ -207,7 +213,6 @@
     font-weight: bold;
   }
   .head2 {
-    
     display: inline-block;
     white-space: nowrap;
     font-size: 20px;
@@ -219,7 +224,6 @@
     font-weight: normal;
   }
   h3 {
-    
     font-size: 25px;
     font-weight: bolder;
   }

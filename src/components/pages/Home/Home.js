@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import "./Home.css";
-import { CarouselProvider, Slider, Slide, Image } from "pure-react-carousel";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  Image,
+  Dot,
+} from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import useWindowSize from "./useWindowSize";
 import { Icon } from "@iconify/react";
@@ -13,36 +19,36 @@ function App() {
   return (
     <div>
       <div className="whole">
-        <div className="anim1">Welcome To</div>
         <center>
           <div className="Container3">
             <center>
               {width > 900 ? (
-                <div className="Dis">
+                <div className="d1">
+                  <div className="anim1">Welcome To</div>
+                  <br />
                   <img src={l2} alt="GDSC Logo" className="l2" />
                   <br />
-                  <b>Google Developer Student Clubs </b>
-                  <div className="clg">
-                    <b>Sri Ramakrishna Engineering College</b>
-                  </div>
+                  Google Developer Student Clubs
+                  <div className="c1">Sri Ramakrishna Engineering College</div>
+                  <br />
+                  <div className="anim2">Lets Learn Together</div>
                 </div>
               ) : (
-                <div className="Dis">
+                <div className="d1">
+                  <div className="anim1">Welcome To</div>
+                  <br />
                   <img src={l2} alt="GDSC Logo" className="l2" />
-
-                  <b>
-                    <br />
-                    Google Developer Student Clubs
-                  </b>
-                  <div className="clg">
-                    <b>SREC</b>
-                  </div>
+                  <br />
+                  Google Developer Student Clubs
+                  <div className="c1">SREC</div>
+                  <br />
+                  <div className="anim2">Lets Learn Together</div>
                 </div>
               )}
             </center>
           </div>
         </center>
-        <div className="anim2">Lets Learn Together</div>
+
         <br />
         <br />
         <div className="Start">
@@ -77,7 +83,7 @@ function App() {
             ) : (
               <CarouselProvider
                 naturalSlideWidth={100}
-                naturalSlideHeight={90}
+                naturalSlideHeight={78}
                 totalSlides={3}
                 isPlaying={true}
                 interval={8000}
@@ -242,7 +248,7 @@ function App() {
           <br />
         </div>
       </div>
-      
+
       <Footers />
     </div>
   );
