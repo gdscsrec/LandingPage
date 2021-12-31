@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-.whol{
+.whol {
   background-color: white;
 }
 .footmain {
@@ -14,7 +14,6 @@
   padding: 0px;
   overflow: hidden;
   width: 100%;
-  margin-top: 350px;
 }
 .lefa {
   float: right;
@@ -59,10 +58,9 @@
 }
 
 @media (max-width: 900px) {
-  
   .quicklinks {
     color: black;
- 
+
     padding-bottom: 50px;
   }
   .dw-heart {

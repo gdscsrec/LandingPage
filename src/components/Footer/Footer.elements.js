@@ -145,7 +145,7 @@ export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
   width: 240px;
 `;
 
