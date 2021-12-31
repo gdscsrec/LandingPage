@@ -99,7 +99,7 @@ function App() {
                 <div className="label2">
                   Learn about a range of technical topics and gain new skills
                   through hands-on workshops, events, talks, and
-                  project-building activities - both online and in-person.
+                  project-building activities-both online and in-person.
                 </div>
               </div>
               <div
@@ -117,9 +117,9 @@ function App() {
                 </center>
                 <br />
                 <div className="label3">
-                  Learn about a range of technical topics and gain new skills
-                  through hands-on workshops, events, talks, and
-                  project-building activities - both online and in-person.
+                    Apply new learnings to build great solutions for local
+                    problems. Advance your skills, career, and network. Give
+                    back to your community by helping others learn, too.
                 </div>
               </div>
               <div
