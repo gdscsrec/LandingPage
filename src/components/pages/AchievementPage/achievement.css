@@ -226,7 +226,7 @@ b {
 
     font-size: 15px;
   }
-  #p1 {
+  .p1 {
     font-family: "Montserrat";
     font-size: 15px;
     font-family: sans-serif;
@@ -283,7 +283,7 @@ b {
     margin: 30px 1px 15px 120px;
     padding: 3px;
     font-size: 15px;
-    margin-left: 120px;
+    margin-left: 128px;
     border: none;
     color: black;
     border-radius: 5px;

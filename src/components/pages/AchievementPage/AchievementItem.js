@@ -24,7 +24,7 @@ function MobileAchievementItem(props) {
         <br/>
          <button id="learn"> Learn more</button>
         <center>
-       {show &&  <p id="p1" className="achievements_desc">{item.description}</p>}
+       {show &&  <p id={item.userid} className="achievements_desc p1">{item.description}</p>}
        </center>
       </div>
     </div>  
