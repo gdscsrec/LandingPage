@@ -1,5 +1,6 @@
 .Start {
   width: 100%;
+  padding: 0px;
 }
 .Container3 {
   padding: 100px;
@@ -92,13 +93,10 @@
 .desc2 {
   float: right;
 }
-.slidebody {
-  margin-top: 10vh;
-  width: 60%;
-  height: auto;
-  object-fit: contain;
+.slider {
+  width: 80%;
+  height: 100%;
 }
-
 .Heading {
   font-size: 4ch;
   color: #ea4335;
@@ -228,12 +226,11 @@
   .c1 {
     font-size: 13px;
   }
-  .slidebody {
-    width: 90%;
-    height: auto;
-  }
   .ics {
     width: 100vw;
+  }
+  .slider {
+    width: 90%;
   }
   .Icon1 {
     width: 100%;

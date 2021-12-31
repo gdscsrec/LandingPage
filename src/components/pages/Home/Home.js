@@ -1,16 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  Image,
-  Dot,
-} from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import useWindowSize from "./useWindowSize";
 import { Icon } from "@iconify/react";
-import SliderImages from "./SliderImages.json";
+import SliderH from "./../../../slider/sliderH";
 import Footers from "../../Footer/Footer";
 import l2 from "../../images/L1.png";
 function App() {
@@ -51,65 +44,13 @@ function App() {
 
         <br />
         <br />
-        <div className="Start">
-          <div className="slider">
-            {width > 1100 ? (
-              <CarouselProvider
-                naturalSlideWidth={100}
-                naturalSlideHeight={40}
-                totalSlides={3}
-                isPlaying={true}
-                interval={8000}
-                infinite={true}
-                className="carousel"
-              >
-                <div className="slidebody">
-                  <Slider>
-                    {SliderImages.map((val, key) => {
-                      return (
-                        <Slide index={key}>
-                          <Image
-                            isBgImage="true"
-                            className="firstslide"
-                            src={val.image}
-                            alt="fs"
-                          />
-                        </Slide>
-                      );
-                    })}
-                  </Slider>
-                </div>
-              </CarouselProvider>
-            ) : (
-              <CarouselProvider
-                naturalSlideWidth={100}
-                naturalSlideHeight={78}
-                totalSlides={3}
-                isPlaying={true}
-                interval={8000}
-                infinite={true}
-                className="carousel"
-              >
-                <div className="slidebody">
-                  <Slider>
-                    {SliderImages.map((val, key) => {
-                      return (
-                        <Slide index={key}>
-                          <Image
-                            isBgImage="true"
-                            className="firstslide"
-                            src={val.image}
-                            alt="fs"
-                          />
-                        </Slide>
-                      );
-                    })}
-                  </Slider>
-                </div>
-              </CarouselProvider>
-            )}
+        <center>
+          <div className="Start">
+            <div className="slider">
+              <SliderH />
+            </div>
           </div>
-        </div>
+        </center>
 
         <div style={{ display: "table-row" }} className="design">
           <br />

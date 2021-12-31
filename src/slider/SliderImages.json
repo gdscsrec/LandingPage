@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "detail": "first slide",
+    "image": "https://i.imgur.com/uStkuTk.png"
+  },
+  {
+    "id": "2",
+    "detail": "second slide",
+    "image": "https://i.imgur.com/K1mJXvB.png"
+  },
+  {
+    "id": "3",
+    "detail": "third slide",
+    "image": "https://i.imgur.com/Ge2KUVK.png"
+  }
+]
