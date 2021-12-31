@@ -42,11 +42,12 @@
 
 b {
   font-size: 30px;
+  margin: 25px;
 }
 #p1 {
   font-family: "Montserrat";
   font-size: 20px;
-  margin: 15px 0 0 0;
+  margin: 15px 25px  0;
   
 }
 #headline {

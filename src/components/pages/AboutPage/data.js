@@ -5,7 +5,7 @@ export const ObjOne = {
   lightTopLine: false,
   lightTextDesc: false,
   description:
-    "Google developer student clubs SREC is a student community formed under the supervision and guidance of google. GDSC runs completely with the hardwork and efforts of the student community. The leads of Technical team, Event management, Design team, Public relations team and project management team work together for the development of this community and the welfare of students.",
+    "Google developer student clubs SREC is a student community formed under the supervision and guidance of google. GDSC runs completely with the hardwork and efforts of the student community. The leads of Technical team, Event management, Design team, Public relations team and Project management team work together for the development of this community and the welfare of students.",
   headline: "About Us",
   lightText: true,
   topLine: "GDSC SREC",

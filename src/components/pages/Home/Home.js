@@ -24,7 +24,7 @@ function App() {
                   Google Developer Student Clubs
                   <div className="c1">Sri Ramakrishna Engineering College</div>
                   <br />
-                  <div className="anim2">Lets Learn Together</div>
+                  <div className="anim2">Let's Learn Together</div>
                 </div>
               ) : (
                 <div className="d1">
@@ -35,7 +35,7 @@ function App() {
                   Google Developer Student Clubs
                   <div className="c1">SREC</div>
                   <br />
-                  <div className="anim2">Lets Learn Together</div>
+                  <div className="anim2">Let's Learn Together</div>
                 </div>
               )}
             </center>
