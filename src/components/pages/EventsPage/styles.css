@@ -128,6 +128,9 @@ p {
   .Container {
     padding: 0px;
   }
+  .who{
+    background-color: #ffffff;
+  }
   .carousel.carousel-slider {
     margin: 0px;
     width: 200vh;

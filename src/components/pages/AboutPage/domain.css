@@ -6,6 +6,12 @@
   padding: 10px;
   font-weight: bolder;
 }
+.whol{
+  background-image:url("https://i.ibb.co/vhChrfQ/edited-bg.png") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .head2 {
   align-items: center;
   font-size: calc(1.325rem + 0.9vw);
@@ -93,6 +99,10 @@
     color: #000;
     font-weight: bolder;
   }
+  .whol{
+    background-color: #fff;
+    background-image: none;
+  }
 
   .domainname {
     display: flex;
@@ -162,6 +172,7 @@
     width: 100%;
     margin: 10px 10px;
   }
+  
   .box1 {
     width: 100%;
     margin: 10px 10px;

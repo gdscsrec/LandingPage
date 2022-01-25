@@ -157,6 +157,9 @@ b {
   .Achievements {
     background-color: white;
   }
+  body{
+    background-color: #ffffff;
+  }
   .achievements_desc{
     padding-left: 0px;
   }

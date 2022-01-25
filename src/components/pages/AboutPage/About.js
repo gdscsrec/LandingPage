@@ -25,7 +25,8 @@ function About() {
     return x;
   }, [Domain]);
   return (
-    <>
+   <>
+    <div className="whol">
       <InfoSection {...ObjOne} />
       <InfoSection {...ObjTwo} />
       <center>
@@ -78,6 +79,7 @@ function About() {
           </div>
         </div>
       </center>
+      </div>
       <Footer />
     </>
   );

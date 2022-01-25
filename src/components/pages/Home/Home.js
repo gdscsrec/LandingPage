@@ -10,8 +10,8 @@ function App() {
   const { width } = useWindowSize();
   console.log({ width });
   return (
-    <div>
-      <div className="whole">
+    <div className="whole">
+      <div>   
         <center>
           <div className="Container3">
             <center>
@@ -189,7 +189,7 @@ function App() {
           <br />
         </div>
       </div>
-
+      
       <Footers />
     </div>
   );

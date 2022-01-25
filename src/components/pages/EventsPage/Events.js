@@ -23,6 +23,7 @@ const Events = () => {
   }, []);
   return (
     <>
+    <div className="who">
       <div className="Events">
         <div className="container">
           <Slider items={items} />
@@ -55,6 +56,7 @@ const Events = () => {
             Load More
           </button>
         </div>
+      </div>
       </div>
       <div>
         {" "}
